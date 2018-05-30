@@ -16,7 +16,7 @@ library(knitr)
 
 # Introduction
 
-This is a step-by-step guide for folks running a reproducibility check for the Checking Analytic Reproducibility at Psychological Science (CARPS) project. R code that you may need to run will appear in grey boxes. We strongly recommend you look through the pre-registration (https://osf.io/2cnkq/) for this project before starting out. This will give you a good overview of the general workflow and may contain additional details that have not been included here. 
+This is a step-by-step guide for folks running a reproducibility check for the Checking Analytic Reproducibility at Psychological Science (CARPS) project. R code that you may need to run will appear in grey boxes. We strongly recommend you look through the pre-registration (https://osf.io/2cnkq/) for this project before starting out. This will give you a good overview of the general workflow and may contain additional details that have not been included here. Additionally, here's an example of a completed CARPS report to give you an idea of what we are aiming for: https://github.com/METRICS-CARPS/CARPS_9-2-2015_PS
 
 For those of you who were involved with COD (Cognition Open Data), the reproducibility check procedure outlined here is basically the same but **there are some important differences**! So please have a read through. Most significantly, we will be using functions from a new CARPSreports package which are a little more advanced than the previous CODreports functions.
 
@@ -34,7 +34,7 @@ In order to reduce the likelihood of error, we will employ a data co-piloting mo
 
 Ultimately, the pilot and co-pilot should prepare a short report (written in R Markdown) on the outcomes of the reproducibility check and submit to Tom for review. If there are reproducibility problems, we will contact original authors together and attempt to resolve them. 
 
-**Note that many of the pilots were graduate students who are no longer taking part in the project, so you should only contact pilots if they are a current member of the team (you can check who is involved on the OSF page or ask Tom if you're not sure). Also note that most of the students worked in pairs, so a pilot and co-pilot are already listed. If this is the case, please add your name as "co-pilot 2"**
+**Note that many of the pilots were graduate students who are no longer taking part in the project, so you should only contact pilots if they are a current member of the team (you can check who is involved on the OSF page or ask Tom if you're not sure). Also note that most of the students worked in pairs, so a pilot and co-pilot are already listed. If this is the case, you can just change the entry for copilots to a vector e.g., copilot = c("name of first copilot", "your name")**
 
 ## Article assignment and Github repositories
 
