@@ -34,7 +34,7 @@ In order to reduce the likelihood of error, we will employ a data co-piloting mo
 
 Ultimately, the pilot and co-pilot should prepare a short report (written in R Markdown) on the outcomes of the reproducibility check and submit to Tom for review. If there are reproducibility problems, we will contact original authors together and attempt to resolve them. 
 
-**Note that many of the pilots were graduate students who are no longer taking part in the project, so you should only contact pilots if they are a current member of the team (you can check who is involved on the OSF page or ask Tom if you're not sure). Also note that most of the students worked in pairs, so a pilot and co-pilot are already listed. If this is the case, you can just change the entry for copilots to a vector e.g., copilot = c("name of first copilot", "your name")**
+**Note that many of the pilots were graduate students who are no longer taking part in the project, so you should only contact pilots if they are a current member of the team (you can check who is involved on the OSF page or ask Tom if you're not sure).**
 
 ## Article assignment and Github repositories
 
